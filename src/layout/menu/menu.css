@@ -53,3 +53,7 @@ li{
     height: 2rem;
 }
 
+.channel-list-im{
+    display: flex;
+    justify-content: space-between;
+}

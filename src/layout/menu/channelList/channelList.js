@@ -16,14 +16,18 @@ const ChannelList = (props) => {
   const disPlayChannelList = () => {
     return props.channels.map((item) => {
       return (
-        <li
-          key={item.id}
-          onClick={item.is_member ? null : props.fetchJoinChannel(item.id)}
-        >
+        <li key={item.id}>
           <Link to={`/channel/${item.id}`}>
-            <div>
-              <i className="fas fa-hashtag"></i>
-              {item.name}
+            <div className="channel-list-im">
+              <div>
+                <i className="fas fa-hashtag"></i>
+                {item.name}
+              </div>
+              <div className="pr-3">
+                {item.is_member ? null : (
+                  <p onClick={() => props.fetchJoinChannel(item.id)}>join</p>
+                )}
+              </div>
             </div>
           </Link>
         </li>
