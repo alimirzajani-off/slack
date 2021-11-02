@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+input{
+  outline: none;
+}
+
+a{
+  color: white;
+}
+
+a:hover{
+  color: white;
+}
+
+.alert{
+  z-index: 10;
+  padding: 0;
+  margin-bottom: 0;
+  position: absolute;
+  text-align: center;
+  height: -webkit-fill-available;
+  width: -webkit-fill-available;
+  background-color: rgb(29 26 26 / 84%);
+}
+
+.alert-box{
+  margin: auto;
+  margin-top: 22rem;
+  border-radius: 4px;
+  width: 20rem;
+  background-color: white;
+}
+
+.alert-box-text{
+  padding-top: 1rem;
+}
+
+.alert-box-button{
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}

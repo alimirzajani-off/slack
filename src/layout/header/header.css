@@ -1,0 +1,26 @@
+.header{
+    z-index: 10;
+    height: 2.75rem;
+    display: flex;
+    background-color: #350D36;
+}
+.header-icon{
+    margin: auto;
+    color: white;
+}
+.search-box{
+    opacity: 0.35;
+    width: 45rem;
+    height: 2rem;
+    margin: auto;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+input{
+    border:none;
+    width: 100%;
+}

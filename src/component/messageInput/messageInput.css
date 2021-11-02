@@ -1,0 +1,28 @@
+.input-groups{
+    /* margin: 5px 5px 5px 15px; */
+    /* background-color: white; */
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.short-cut{
+    border-right: 2px solid black;
+}
+.icon-style{
+    padding-left: 0;
+}
+
+.text-group input{
+    height: 3rem;
+}
+
+.icon-style .right-section{
+    padding: 0;
+}
+.icon-style .left-section li,.icon-style .right-section li{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.icon-style .left-section,.icon-style .right-section{
+    margin:7px 0;
+}
+/* .text-group input:active + div{ background: green; } */

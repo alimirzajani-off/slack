@@ -1,0 +1,38 @@
+.chat-header{
+    border-bottom: 1px solid black;
+}
+.chat-header{
+    padding: .75rem;
+    margin-top: 2.75rem;
+    margin-left: 17rem;
+    background-color: white;
+}
+.chat,.chat-body{
+    z-index: 0;
+    margin-left: 17rem;
+}
+.chat-body{
+    /* overflow-y: auto; */
+   margin-bottom: 6rem;
+}
+.chat-header div h5{
+    padding-right: 1rem;
+}
+.text-group,input{
+    width: 100%;
+}
+.chat-name{
+    display: flex;
+    align-items: center;
+}
+.chat-name h5{margin: 0;}
+.chat-info{
+   height: 39.5rem;
+   overflow: auto;
+   transform: rotate(180deg);
+   direction:rtl;
+}
+.chat-info li{
+   transform: rotate(180deg);
+   direction: ltr;
+}

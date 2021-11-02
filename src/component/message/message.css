@@ -1,0 +1,40 @@
+h3{
+    margin: 0;
+}
+.chat-text{
+    display: flex;
+    align-items: baseline;
+    text-align: start;
+    margin-bottom: 1rem;
+    padding: .5rem;
+}
+.chat-text:hover{
+    background-color: aliceblue;
+}
+.chat-content{
+    margin-left: .5rem;
+}
+.delete-text-icon{
+    display: none;
+}
+.chat-text:hover .delete-text-icon{
+    display: block;
+}
+
+.delete-text{
+    margin-left: auto;
+}
+
+.leave-channel-icon{
+    color: black;
+}
+
+.delete-text-icon:hover,.leave-channel-icon:hover{
+    color: red;
+}
+
+.chat-header{
+    align-items: center;
+    z-index: 10;
+}
+
