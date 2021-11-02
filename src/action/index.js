@@ -5,7 +5,7 @@ headers.append("Accept", "*/*");
 headers.append("Content-Type", "application/x-www-form-urlencoded");
 headers.append(
   "Authorization",
-  "Bearer xoxb-2634727642903-2634783406423-G0XpjASOVerknzEephVWAl1D"
+  "Bearer xoxb-2634727642903-2634783406423-JTnknHUv6MdBdh3F3Ko4hCBN"
   // xoxb-871193136326-2636258248070-hpHuTnmgDLmug3MSg5cIyJ9P
   //"wss://wss-primary.slack.com/link/?ticket=ec1732b3-66b0-40c2-ac93-e48f76cc3b8a&app_id=3949272e5d3454e4abfe7aaa7f49dec426315d7985e9e7fb0a075fde8ecb997d"
 );
@@ -14,7 +14,7 @@ webSocketHeaders.append("Accept", "*/*");
 webSocketHeaders.append("Content-Type", "application/x-www-form-urlencoded");
 webSocketHeaders.append(
   "Authorization",
-  "Bearer xoxb-2634727642903-2666254385605-7kchwNZC7uKKLXmBEOtTTFyn"
+  "Bearer xoxb-2634727642903-2666254385605-Vs6S0HVHOH3Ln3gyqybvQR8l"
 );
 
 var url = "https://slack.com/api";
@@ -101,6 +101,7 @@ export const fetchWebSocket = (id) => async (dispatch) => {
     headers: webSocketHeaders,
   });
   const data = await response.json();
+  console.log(data);
   WebSocketApi = `${data.url}`;
   const ur = WebSocketApi;
   const websocket = new WebSocket(ur);

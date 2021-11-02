@@ -13,7 +13,7 @@ const Message = (props) => {
   const [lastID, setlastID] = useState();
 
   useEffect(() => {
-    if (lastID != id) {
+    if (lastID !== id) {
       props.fetchMessage(id);
       props.fetchWebSocket(id);
       setlastID(id);

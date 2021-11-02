@@ -1,9 +1,9 @@
-import React from 'react'
-import { EditOutlined } from '@ant-design/icons'
-import './menu.css'
-import ChannelList from './channelList/channelList'
-import MainList from './mainList/mainList'
-import DirectList from './directList/directList'
+import React from "react";
+import { EditOutlined } from "@ant-design/icons";
+import "./menu.css";
+import ChannelList from "./channelList/channelList";
+import MainList from "./mainList/mainList";
+import DirectList from "./directList/directList";
 
 const Menu = () => {
   return (
@@ -22,7 +22,7 @@ const Menu = () => {
         <DirectList />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Menu
+export default Menu;
